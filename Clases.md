@@ -95,7 +95,7 @@ Orden de agrupamiento:
 - Métodos (incluye constructores) en la parte inferior
 
 Criterios de agrupamiento:
-- Previo a cada propiedad/comportamiento, un signo que representa su tipo de acceso [revisar modificadores de acceso]([Pilares%20de%20POO.md### Encapsulación](https://github.com/A01707310/PrincipiosDeCpp/blob/main/Pilares%20de%20POO.md#encapsulaci%C3%B3n)): 
+- Previo a cada propiedad/comportamiento, un signo que representa su tipo de acceso [revisar modificadores de acceso](https://github.com/A01707310/PrincipiosDeCpp/blob/main/Pilares%20de%20POO.md#encapsulaci%C3%B3n): 
 
   - '-' para _private_
   - '+' para _public_
