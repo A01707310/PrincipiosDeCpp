@@ -126,3 +126,5 @@ class Perro{
 |+ alimentar(cantidad_alimento : int) : void|
 
 </details>
+
+LINK A UN VIDEO SOBRE DIAGRAMAS UML: https://www.youtube.com/watch?v=6XrL5jXmTwM
