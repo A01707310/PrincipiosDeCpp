@@ -128,7 +128,7 @@ class Perro{
 </details>
 
 
-<details markdown='1'><summary>Interrelaciones dentro del diagrama</summary>
+<details markdown='1'><summary>Representando interrelaciones dentro del diagrama</summary>
   
 - Línea sólida: Asociación (relación entre dos clases que permite la comunicación)
 - Línea sólida con rombo abierto: Agregación (relación "tiene un" donde la clase contenedora puede existir independientemente)
