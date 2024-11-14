@@ -127,4 +127,14 @@ class Perro{
 
 </details>
 
+
+<details markdown='1'><summary>Interrelaciones dentro del diagrama</summary>
+- Línea sólida: Asociación (relación entre dos clases que permite la comunicación)
+- Línea sólida con rombo abierto: Agregación (relación "tiene un" donde la clase contenedora puede existir independientemente)
+ - Línea sólida con rombo cerrado: Composición (relación "parte de" donde la clase contenedora no puede existir sin sus partes)
+ - Línea sólida con triángulo hueco: Herencia (relación donde una clase hereda atributos y métodos de otra clase)
+ - Línea discontinua con triángulo hueco: Realización (implementación de una interfaz por una clase)
+ - Línea discontinua con flecha: Dependencia (una clase depende de otra clase, indicando que un cambio en una puede afectar a la otra)
+</details
+
 LINK A UN VIDEO SOBRE DIAGRAMAS UML: https://www.youtube.com/watch?v=6XrL5jXmTwM
