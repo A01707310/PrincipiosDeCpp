@@ -38,10 +38,10 @@ In order to declare a matrix it's **primordial** to include its **contained data
 Before using strings we need to be sure to have their library included at the top of our file.
 `#include <strings>`
 Once included, we follow the next syntax:
-`
+```
 std::string name; //When Defining
 std::string name="This is a string; //When initializing during definition"; 
-`
+```
 
 ### Variables and constants
 Both are **containers** (literally, spaces in memory) **for an specified data type**, and they share some **similarities**:
