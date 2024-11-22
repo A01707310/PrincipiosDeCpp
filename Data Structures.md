@@ -6,13 +6,13 @@ title: 'Data Structures'
 
 ## Data Structures
 ### Arrays 
-In orden to declare an array, its **primordial** to define its **contained data `type`**, **`name`** and **element amount (integer `n`)**.
+In orden to declare an array, it's **primordial** to define its **contained data `type`**, **`name`** and **element amount (integer `n`)**.
 > Syntax 
 ```
 type name[n] = {};
 ```
 ### Matrices
-In order to declare a matrix it's **primordial** to include its **contained data `type`**, **`name`**, **row amount (integer `m`)**, **colum amount (integer `n`)** 
+In order to declare a matrix it's **primordial** to include its **contained data `type`**, **`name`**, **row amount (integer `m`)**, **column amount (integer `n`)** 
 > Syntax
 ```
  type name[m][n] = {
