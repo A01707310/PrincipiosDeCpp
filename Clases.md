@@ -129,12 +129,12 @@ class Perro{
 
 
 <details markdown='1'><summary>Representando interrelaciones dentro del diagrama</summary>
-- Asociación: línea sólida. Indica que hay relación entre los objetos de dos clases. 
-- Agregación: línea sólida con rombo abierto (pegado a la clase receptora). Representa dentro de una clase, el recibir un objeto previamente construido (y por tanto independiente) a esta.
- - Composición: línea sólida con rombo cerrado (pegado a la clase contenedora). Representa objetos contenidos dentro de objetos contenedores (lo contenido no puede existir sin su contenedor).
- - Herencia: línea sólida con triángulo hueco (el triángulo pegado a la superclase). Representa clases que heredan propiedades y métodos de otra (una superclase).
- - Realización: línea discontinua con triángulo hueco.
- - Línea discontinua con flecha: Dependencia (una clase depende de otra clase, indicando que un cambio en una puede afectar a la otra)
+  - Asociación: línea sólida. Indica que hay relación entre los objetos de dos clases. 
+  - Agregación: línea sólida con rombo abierto (pegado a la clase receptora). Representa dentro de una clase, el recibir un objeto previamente construido (y por tanto independiente) a esta.
+  - Composición: línea sólida con rombo cerrado (pegado a la clase contenedora). Representa objetos contenidos dentro de objetos contenedores (lo contenido no puede existir sin su contenedor).
+  - Herencia: línea sólida con triángulo hueco (el triángulo pegado a la superclase). Representa clases que heredan propiedades y métodos de otra (una superclase).
+  - Realización: línea discontinua con triángulo hueco.
+  - Línea discontinua con flecha: Dependencia (una clase depende de otra clase, indicando que un cambio en una puede afectar a la otra)
 </details
 
 LINK A UN VIDEO SOBRE DIAGRAMAS UML: https://www.youtube.com/watch?v=6XrL5jXmTwM
