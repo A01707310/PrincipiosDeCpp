@@ -129,7 +129,8 @@ class Perro{
 
 
 <details markdown='1'><summary>Representando interrelaciones dentro del diagrama</summary>
-  - Asociación: línea sólida. Indica que hay relación entre los objetos de dos clases. 
+  
+  - Asociación: línea sólida. Indica que hay relación entre los objetos de dos clases.
   - Agregación: línea sólida con rombo abierto (pegado a la clase receptora). Representa dentro de una clase, el recibir un objeto previamente construido (y por tanto independiente) a esta.
   - Composición: línea sólida con rombo cerrado (pegado a la clase contenedora). Representa objetos contenidos dentro de objetos contenedores (lo contenido no puede existir sin su contenedor).
   - Herencia: línea sólida con triángulo hueco (el triángulo pegado a la superclase). Representa clases que heredan propiedades y métodos de otra (una superclase).
