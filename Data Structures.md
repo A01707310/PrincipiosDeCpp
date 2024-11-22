@@ -5,8 +5,20 @@ title: 'Data Structures'
 ---
 
 ## Data Structures
+
+### Vectors
+In orden to declare a Vector, it's **primordial** to include the `vector` library at the top of our code.
+**An interesting characteristic of vectors: they don't need a specified length because they're not tied to one**
+> Syntax 
+```
+#include <vector>
+vector<type> name; //During initialization
+vector<type> name = {element1,element2,(and so on...)}; //Defining when initializing
+```
+
 ### Arrays 
 In orden to declare an array, it's **primordial** to define its **contained data `type`**, **`name`** and **element amount (integer `n`)**.
+**Arrays' size it's limited to its previous specified length**
 > Syntax 
 ```
 type name[n] = {};
@@ -23,6 +35,14 @@ In order to declare a matrix it's **primordial** to include its **contained data
 };
 ```
 ### Strings
+Before using strings we need to be sure to have their library included at the top of our file.
+`#include <strings>`
+Once included, we follow the next syntax:
+`
+std::string name; //When Defining
+std::string name="This is a string; //When initializing during definition"; 
+`
+
 ### Variables and constants
 Both are **containers** (literally, spaces in memory) **for an specified data type**, and they share some **similarities**:
 
