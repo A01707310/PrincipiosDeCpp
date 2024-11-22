@@ -129,12 +129,11 @@ class Perro{
 
 
 <details markdown='1'><summary>Representando interrelaciones dentro del diagrama</summary>
-  
-- Línea sólida: Asociación (relación entre dos clases que permite la comunicación)
-- Línea sólida con rombo abierto: Agregación (relación "tiene un" donde la clase contenedora puede existir independientemente)
- - Línea sólida con rombo cerrado: Composición (relación "parte de" donde la clase contenedora no puede existir sin sus partes)
- - Línea sólida con triángulo hueco: Herencia (relación donde una clase hereda atributos y métodos de otra clase)
- - Línea discontinua con triángulo hueco: Realización (implementación de una interfaz por una clase)
+- Asociación: línea sólida. Indica que hay relación entre los objetos de dos clases. 
+- Agregación: línea sólida con rombo abierto (pegado a la clase receptora). Representa dentro de una clase, el recibir un objeto previamente construido (y por tanto independiente) a esta.
+ - Composición: línea sólida con rombo cerrado (pegado a la clase contenedora). Representa objetos contenidos dentro de objetos contenedores (lo contenido no puede existir sin su contenedor).
+ - Herencia: línea sólida con triángulo hueco (el triángulo pegado a la superclase). Representa clases que heredan propiedades y métodos de otra (una superclase).
+ - Realización: línea discontinua con triángulo hueco.
  - Línea discontinua con flecha: Dependencia (una clase depende de otra clase, indicando que un cambio en una puede afectar a la otra)
 </details
 
