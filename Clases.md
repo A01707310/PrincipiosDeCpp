@@ -17,7 +17,7 @@ class product{
 Las clases son estructuras contenedoras de atributos **(también llamados propiedades, variables de instancia)** y métodos (**también llamados funciones de instancia, comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
 
 ### Uso de la POO de manera estratégica
-- <details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
+<details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
   - ¿Hay **entidades relevantes** participando del problema? (_**Determinando clases**_)
   - Para cada entidad identificada, ¿Qué **propiedades** de esta entidad son **relevantes**? (_**Determinando atributos**_)
   - Para cada entidad identificada, ¿Qué **acciones** debería realizar? (**_Determinando métodos_**)
