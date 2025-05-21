@@ -32,7 +32,7 @@ Las clases son _**Blueprints**_  con los atributos **(propiedades)** y métodos 
 
 ### Atributos/Variables de instancia
 > Propiedad, heredable.
-Son heredables, modelan las propiedades del objeto y son accesibles por cualquier método de la misma clase.
+Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará.
 ```int num = 1; // tipo nombre = dato;```
 
 
