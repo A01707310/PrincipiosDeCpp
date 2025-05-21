@@ -30,7 +30,7 @@ Las clases son estructuras contenedoras de atributos **(también llamados propie
 
 **Generalización**: el uso de clases **(superclases)** que contengan las propiedades y comportamientos que **heredaran** sus **subclases**, evitando así reescribir código (y complicarlo) de manera innecesaria.
 
-  **Especialización**: aprovechamiento de subclases para crear **objetos específicos** que además de contener las propiedades y comportamientos comunes (provistos en la superclase), considerarán **otras propiedades/comportamientos** que les permitirán una **singularidad** como objeto.
+  **Especialización**: Uso de subclases para crear **objetos especializados** que además de contener las propiedades y comportamientos provistos por la superclase, incluirán **otras propiedades y comportamientos** que les convierten en un objeto **singular**.
 </details>
 
 
@@ -52,6 +52,7 @@ Se colocan bajo el modificador de acceso deseado (suele ser private) y como cual
 They can recibe values, use them in operations, and/or return them just like any function, with the difference that methods have access to any attribute contained within the same class.
 
 ```cpp
+// Dentro de un apartado de métodos en la clase
 int getNum() {
     return num
 };
@@ -61,9 +62,31 @@ void setNum(int x) {
 };
 ```
 ### Constructor
-> Preconfigurando los objetos productos de tu clase 
+> Generador de un objeto (aquello que te permite hacer uso de tu clase para crear instancias).
 
-Un tipo especial de método, incluido en la clase para inicializar los atributos de futuros objetos. Comparte nombre con la clase y no genera un retorno (ni siquiera `void`). 
+Un tipo especial de método incluido en la clase para inicializar los atributos de futuros objetos y así configurar el estado inicial de futuros objetos. Durante su declaración no se especifica un tipo de dato (ni siquiera void), comparte nombre con la clase de manera que se invoque automáticamente al instanciarla, puede haber más de un constructor (sobrecarga de constructores) con distintas listas de parámetros para manejar la creación del objeto de distintas maneras. El constructor por defecto especifica cómo debe construirse el objeto sin el paso previo de parámetros; El constructor de copia recibe un objeto del mismo tipo y crea uno idéntico.
+
+```cpp
+class product{
+    private:
+    // Attributes
+    int num;
+    public:
+    // Methods
+    product():num(0) {}; // Constructor por defecto
+    product(int x):num(x) {};
+    product(const product& original):num(original.getNum()); // Constructor copia
+
+    int getNum() {
+        return num
+    };
+    
+    void setNum(int x) {
+        num = x;
+    };
+};
+```
+
 ### Objetos
 Entidad concreta que se crea a partir de estructura y comportamientos de la clase. Si hay un constructor dentro de su clase, los atributos del objeto podrán ser inicializados con mediante este, proporcionándole argumentos.
 
