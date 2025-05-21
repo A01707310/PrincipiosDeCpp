@@ -17,17 +17,18 @@ class product{
 Las clases son estructuras contenedoras de atributos **(también llamados propiedades, variables de instancia)** y métodos (**también llamados funciones de instancia, comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
 
 ### Uso de la POO de manera estratégica
-<details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
+- <details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
+  
   - ¿Hay **entidades relevantes** participando del problema? (_**Determinando clases**_)
   - Para cada entidad identificada, ¿Qué **propiedades** de esta entidad son **relevantes**? (_**Determinando atributos**_)
   - Para cada entidad identificada, ¿Qué **acciones** debería realizar? (**_Determinando métodos_**)
   
-  > Finalmente plasmar una solución al problema que comprenda la dinámica entre las distintas clases.
+  Finalmente plasmar una solución al problema que comprenda la dinámica entre las distintas clases.
 </details>
 
 - <details markdown='1'><summary>Generalización y especialización</summary>
 
-  **Generalización**: el uso de clases **(superclases)** que contengan las propiedades y comportamientos que **heredaran** sus **subclases**, evitando así reescribir código (y complicarlo) de manera innecesaria.
+**Generalización**: el uso de clases **(superclases)** que contengan las propiedades y comportamientos que **heredaran** sus **subclases**, evitando así reescribir código (y complicarlo) de manera innecesaria.
 
   **Especialización**: aprovechamiento de subclases para crear **objetos específicos** que además de contener las propiedades y comportamientos comunes (provistos en la superclase), considerarán **otras propiedades/comportamientos** que les permitirán una **singularidad** como objeto.
 </details>
