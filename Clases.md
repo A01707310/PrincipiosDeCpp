@@ -30,7 +30,7 @@ Las clases son _**Blueprints**_  con los atributos **(propiedades)** y métodos 
   Nunca esta demás revisar que el diseño de tus objetos y clases sea el óptimo. **Evita la redundancia entre clases** (Principio de Responsabilidad Única). Queremos el mejor código para mantenerlo de manera fácil en el futuro.
 </details>
 
-### Atributos
+### Atributos/Variables de instancia
 > Propiedad, heredable.
 
 Son heredables. Tienen un nombre, un tipo de valor, y un valor (aunque pueden sólo definirse).
