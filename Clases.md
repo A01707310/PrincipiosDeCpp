@@ -3,18 +3,18 @@ tags: []
 created: '2024-11-11'
 title: 'Clases'
 ---
-## Clases
-> Blueprint: **modelo/plantilla** que **define** la **estructura** y el comportamiento de un objeto o clase.
+## Clase
+> Una estructura **blueprint/modelo/plantilla** que modela las propiedades y el comportamiento de un objeto.
 
-Las clases son _**Blueprints**_  con los atributos **(propiedades)** y métodos (**comportamientos**) que poseeran los objetos **(instancias)** derivados.
+Las clases son estructuras contenedoras de atributos **(propiedades)** y métodos (**comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
 ### Identificando Clases
-- <details markdown='1'><summary>Identificar posibles objetos</summary>
+- <details markdown='1'><summary>Determinar si es necesaria la implementación de objetos para resolver un problema:</summary>
 
-  - ¿Qué **entidades** del problema a resolver son **relevantes**? (_**Determinando clases**_)
+    - ¿Hay **entidades relevantes** participando del problema? (_**Determinando clases**_)
   - Para cada entidad identificada, ¿Qué **propiedades** de esta entidad son **relevantes**? (_**Determinando atributos**_)
-  - Para cada entidad identificada, ¿Qué **acciones** puede realizar? (**_Determinando métodos_**)
+  - Para cada entidad identificada, ¿Qué **acciones** debería realizar? (**_Determinando métodos_**)
   
-  > Ahora entiende los posibles tipos de relaciones entre clases: _Clase a Clase_, _Clase a Clases_ y _Clases  a Clases_  
+  > Finalmente plasmar una solución al problema que comprenda la dinámica entre las distintas clases.
 </details>
 
 - <details markdown='1'><summary>Generalización y especialización</summary>
@@ -32,11 +32,13 @@ Las clases son _**Blueprints**_  con los atributos **(propiedades)** y métodos 
 
 ### Atributos/Variables de instancia
 > Propiedad, heredable.
+
 Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará.
-```int num = 1; // tipo nombre = dato;```
+```cpp
+int num = 1; // tipo nombre = dato;
+```
+Se colocan bajo el modificador de acceso deseado (suele ser private) y como cualquier variable pueden ser inicializados ahí mismo, aunque generalmente suele hacerse desde algún constructor.
 
-
-Podemos simplemente definirlos al inicio de la clase (aunque pueden inicializarse ahí mismo, pero esto suele hacerse mas adelante en la clase y mediante un constructor).
 ### Methods
 > Comportamiento, heredable.
 
