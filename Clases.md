@@ -14,10 +14,10 @@ class product{
     // Methods
 };
 ```
-Las clases son estructuras contenedoras de atributos **(propiedades)** y métodos (**comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
+Las clases son estructuras contenedoras de atributos **(también llamados propiedades, variables de instancia)** y métodos (**también llamados funciones de instancia, comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
+
 ### Uso de la POO de manera estratégica
 - <details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
-    
   - ¿Hay **entidades relevantes** participando del problema? (_**Determinando clases**_)
   - Para cada entidad identificada, ¿Qué **propiedades** de esta entidad son **relevantes**? (_**Determinando atributos**_)
   - Para cada entidad identificada, ¿Qué **acciones** debería realizar? (**_Determinando métodos_**)
@@ -38,9 +38,9 @@ Las clases son estructuras contenedoras de atributos **(propiedades)** y método
   Nunca esta demás revisar que el diseño de tus objetos y clases sea el óptimo. **Evita la redundancia entre clases** (Principio de Responsabilidad Única). Queremos el mejor código para mantenerlo de manera fácil en el futuro.
 </details>
 
-### Atributos/Variables de instancia
+### Atributos
 
-Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará **(atributo: heredable)**.
+Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará: que el atributo sea **heredable** significa que cualquier subclase contendrá por defecto los mismos atributos que la superclase.
 ```cpp
 int num = 1; // tipo nombre = dato;
 ```
