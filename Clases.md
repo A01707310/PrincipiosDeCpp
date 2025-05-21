@@ -6,6 +6,15 @@ title: 'Clases'
 ## Clase
 > Una estructura **blueprint/modelo/plantilla** que modela las propiedades y el comportamiento de un objeto.
 
+```cpp
+class product{
+    private:
+    // Attributes
+    public:
+    // Methods
+};
+```
+
 Las clases son estructuras contenedoras de atributos **(propiedades)** y métodos (**comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
 ### Uso de la POO de manera estratégica
 - <details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
@@ -31,20 +40,26 @@ Las clases son estructuras contenedoras de atributos **(propiedades)** y método
 </details>
 
 ### Atributos/Variables de instancia
-> Propiedad, heredable.
 
-Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará.
+Representan las propiedades del objeto a modelar y son accesibles por cualquier método de la misma clase. Cualquier subclase los heredará **(atributo: heredable)**.
 ```cpp
 int num = 1; // tipo nombre = dato;
 ```
 Se colocan bajo el modificador de acceso deseado (suele ser private) y como cualquier variable pueden ser inicializados ahí mismo, aunque generalmente suele hacerse desde algún constructor.
 
 ### Methods
-> Comportamiento, heredable.
+> Funciones de instancia
+They can recibe values, use them in operations, and/or return them just like any function, with the difference that methods have access to any attribute contained within the same class.
 
-They can recibe values, use them in operations, and/or return them. Just like functions.
- 
-The difference remains on their implementation context: **methods are related to objects, functions aren't.** 
+```cpp
+int getNum() {
+    return num
+};
+
+void setNum(int x) {
+    num = x;
+};
+```
 ### Constructor
 > Preconfigurando los objetos productos de tu clase 
 
