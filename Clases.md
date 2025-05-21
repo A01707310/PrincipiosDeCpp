@@ -7,8 +7,8 @@ title: 'Clases'
 > Una estructura **blueprint/modelo/plantilla** que modela las propiedades y el comportamiento de un objeto.
 
 Las clases son estructuras contenedoras de atributos **(propiedades)** y métodos (**comportamientos**) que poseeran los objetos **(instancias/implementaciones de esa clase)** derivados.
-### Identificando Clases
-- <details markdown='1'><summary>Determinar si es necesaria la implementación de objetos para resolver un problema:</summary>
+### Uso de la POO de manera estratégica
+- <details markdown='1'><summary>Determinar si es necesario el uso de objetos para resolver un problema:</summary>
 
     - ¿Hay **entidades relevantes** participando del problema? (_**Determinando clases**_)
   - Para cada entidad identificada, ¿Qué **propiedades** de esta entidad son **relevantes**? (_**Determinando atributos**_)
